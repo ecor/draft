@@ -7,7 +7,7 @@ Si sono presi i dati finora raccolti, nei formati CSV,GeoJSON e SHP e sono stati
 
 ### Perché un pacchetto R? 
 
-Il pacchetto R è la manniera più concisa per mettere assieme diverse funzioni R e per meglio organizzare un lavoro. 
+Il pacchetto R è la manniera più concisa per mettere assieme diverse funzioni R e per meglio organizzare un lavoro, o almeno questa è la speranza! Se lo scopo è quindi creare un pacchetto che permetta la riproducibilità del trattamento partendo dai dati originali, uno script R con alcune funzioni raggruppate in un pacchetto , può essere una soluzione.
 
 
 ### Installazione di 'Rcode4healthAsbestos'
@@ -43,4 +43,4 @@ Lo script fa usa dell'unica funzione attualmente implementata "getAsbestosFile" 
 
 Questa funzione ATTUALMENTE legge ongi silo files (cioè ogni singola sorgente di dati)  è un wrapper di 'readOGR' (pacchetto "rgdal") per i dati SHP e GEOJSON , già georeferenziati, mentre nel caso CSV usa "read.data" (pachetto base). 
 La funzione è in divenire, nel senso che prossimamente inserirò una opzione per georeferenziare direttamente i CSV dai campi coordinate trovati nelle tabelle. 
-Ultariori lavori sulle tabelle sono da farsi via via seguendo le indicazioni fornite nei file README.md che si creearanno per ogni sorgente di dato. 
+Ultariori lavori sulle tabelle sono da farsi via via seguendo le indicazioni fornite nei file README.md che si creeranno per ogni sorgente di dato. 
