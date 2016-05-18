@@ -17,18 +17,26 @@ Entrando in ambiente R facendo uso del pacchetto "devtools" si =
 > library(devtools)
 >
 > install_github("....")
-> install_github("ecor/geotopOptim")
+
 
 
 # Come usare il primo script con 'rcode4health-asbestos'
 
-
+Si carica il pacchetto:
 
 > library(Rcode4healthAsbestos)
 >
+
+si crea la stringa contentente il path dello script R per importare i dati raccolti in formato CSV, GEOJSON ed SHP ed attualmente presenti nella cartella 'dati' del progetto 'code4health' . (Lo script può esere trovato anche nella sottocartella 'r-code4health/inst' , nome del file 'amianto_italia.R') 
+
+
 >  file <- system.file("amianto_italia.R",package="Rcode4healthAsbestos")
->
+
+Si lancia lo script
+
 >  source(file)
+
+Lo script legge ogni sinfolo file ed importa i dati organizzati in una lista. ATTUALMENTE gli elementi corrispondenti ai files in formato SHP (shapefile) e GeoJSON sono letti come SpatialPointDataFrame o SpatialPolygonDataFrame mentre  gli elementi letti in files CSV rimangono semplici oggetti di classe data frame.
 
 
 
