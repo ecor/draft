@@ -31,13 +31,6 @@ Entrando in ambiente R facendo uso del pacchetto "devtools" si =
 >  source(file)
 
 
->script <- system.file("install_github("....")
-> install_github("ecor/geotopOptim")
-# geotopOptimPSO Calibration/Optimization Wrapper R Package for the hydrological model GEOtop.
-
-
-
-
 
 ## Installation note on GEOtop 
 
