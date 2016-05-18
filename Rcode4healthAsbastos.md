@@ -10,7 +10,7 @@ Si sono presi i dati finora raccolti, nei formati CSV,GeoJSON e SHP e sono stati
 Il pacchetto R è la manniera più concisa per mettere assieme diverse funzioni R e per meglio organizzare un lavoro. 
 
 
-# Installazione di 'rcode4health-asbestos'
+# Installazione di 'Rcode4healthAsbestos'
 
 Entrando in ambiente R facendo uso del pacchetto "devtools" si =
 
@@ -19,7 +19,23 @@ Entrando in ambiente R facendo uso del pacchetto "devtools" si =
 > install_github("....")
 > install_github("ecor/geotopOptim")
 
+
+# Come usare il primo script con 'rcode4health-asbestos'
+
+
+
+> library(Rcode4healthAsbestos)
+>
+>  file <- system.file("amianto_italia.R",package="Rcode4healthAsbestos")
+>
+>  source(file)
+
+
+>script <- system.file("install_github("....")
+> install_github("ecor/geotopOptim")
 # geotopOptimPSO Calibration/Optimization Wrapper R Package for the hydrological model GEOtop.
+
+
 
 
 
