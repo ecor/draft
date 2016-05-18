@@ -7,9 +7,12 @@ Si sono presi i dati finora raccolti, nei formati CSV,GeoJSON e SHP e sono stati
 
 # Perché un pacchetto R? 
 
+Il pacchetto R è la manniera più concisa per mettere assieme diverse funzioni R e per meglio organizzare un lavoro. 
 
 
 # Installazione di 'rcode4health-asbestos'
+
+Entrando in ambiente R facendo uso del pacchetto "devtools" si =
 
 > library(devtools)
 >
